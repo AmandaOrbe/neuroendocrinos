@@ -1,0 +1,74 @@
+
+.tabla{
+	width: 100%;
+	background-color: white;
+	font-size: 1.6rem;
+	margin: 1rem auto;
+
+
+	tr{
+		height: 4.8rem;
+		&:hover{
+			background-color: $gray;
+		}
+	}
+
+	&__25{
+		width: 25%;
+	}
+
+	&__70{
+		width: 70%;
+	}
+
+	&__33{
+		width: 33%;
+	}
+
+	&__50{
+		width: 50%;
+	}
+
+	&__20{
+		width: 20%;
+	}
+
+	&__40{
+		width: 40%;
+	}
+
+	&__15{
+		width: 15%;
+	}
+
+	&__row-header{
+
+		font-weight:800;
+
+	}
+
+	&__head{
+		background-color: $dark-gray;
+	}
+
+	&__row-gray{
+		background-color: $light-gray;
+	}
+	td,th{
+		padding: 1.5rem;
+	}
+
+	li{
+		padding: 1rem;
+		list-style: none;
+		vertical-align: top;
+	}
+
+	.gray{
+		background-color: $light-gray;
+	}
+
+	.align-top{
+		vertical-align:top;
+	}
+}

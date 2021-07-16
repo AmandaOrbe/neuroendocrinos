@@ -1,0 +1,138 @@
+.container{
+  width: 100%;
+
+  .content{
+    margin: 4rem auto ;
+    background-color: $white;
+    width:  70rem;
+    min-height: 20rem;
+    // border: 1px solid pink;
+    @include respond(landscape) { // width < 1200
+      width:60rem; //1rem = 9px,  9/16 = 56,25%
+    }
+    @include respond(portrait) { // width < 1200
+       margin: 6rem;
+        width: auto;
+    }
+
+    @include respond(phone) { // width < 1200
+      margin: 1rem;
+      width: auto;
+      min-height: 100vh;
+    }
+
+    &--2{
+
+      margin: 6rem auto ;
+      box-shadow: $box-shadow;
+      background-color: $white;
+      width: 80rem;
+      padding: 8rem 16rem 8rem 16rem;
+      min-height: 20rem;
+
+      @include respond(landscape) { // width < 1200
+        width:60rem; //1rem = 9px,  9/16 = 56,25%
+        padding: 6rem 8rem 6rem 8rem;
+      }
+      @include respond(portrait) { // width < 1200
+        margin: 1rem;
+        width: auto; //1rem = 9px,  9/16 = 56,25%
+        padding: 2rem 6rem 6rem 6rem;
+      }
+
+      @include respond(phone) { // width < 1200
+        margin: 1rem;
+        width: auto; //1rem = 9px,  9/16 = 56,25%
+        padding: 1rem 2rem 1rem 2rem;
+      }
+    }
+  }
+
+
+  .primary{
+      color: $primary;
+    }
+
+
+  h4{
+   font-family: $headers-font;
+    font-size: 2.2rem;
+    font-weight: 700;
+    margin-top: 2.5rem;
+    text-decoration: underline;
+  }
+
+
+
+  p{
+    font-size: 1.8rem;
+    line-height: 3.6rem;
+    text-align: justify;
+    hyphens: auto;
+
+  }
+
+  a{
+    word-break: break-all;
+    color: $primary;
+  }
+
+  .biblio{
+    line-height: 2.8rem;
+    text-indent: -5rem;
+     @include respond(phone) {
+          text-indent: -2rem;
+    width: 21rem;
+    }
+
+  }
+
+  .margin7{
+    margin-top: 7rem;
+  }
+
+  .margin-bottom7{
+    margin-bottom: 7rem;
+  }
+
+  .margin-bottom5{
+    margin-bottom: 5rem;
+  }
+
+  .margin-bottom2{
+    margin-bottom: 2rem;
+  }
+
+  .margin5{
+    margin-top: 5rem;
+  }
+
+  .margin2{
+    margin-top: 2rem;
+  }
+  .indented{
+    text-indent: 5rem;
+     @include respond(portrait) {
+      text-indent: 3rem;
+    }
+  }
+
+  &__highlight{
+    font-weight: 700;
+    &:hover{
+      background-color: $light-primary;
+    }
+  }
+
+}
+
+.scroll-container{
+  max-width: 100%;
+  overflow-y: scroll; 
+}
+
+.small-text{
+  font-size: 1.4rem;
+  line-height:1.6
+}
+

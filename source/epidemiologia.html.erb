@@ -1,0 +1,90 @@
+
+<% t =  data.origen%>
+<div id="home">
+  <%=partial(:'components/sidebar-epidemiologia')  %>
+
+  <div id="main">
+    <div class="container">
+      <div class="content">
+        <div id="epidemiologia-presentacion">
+        <%= partial(:'components/header1', :locals => { :text => "Epidemiología"}) %>
+
+          <p class= "indented margin5 "> Los TNE-GEP son tumores infrecuentes. Suponen alrededor del 5% de todos los tumores malignos del tracto gastrointestinal y el 3% de los pancreáticos. </p>
+
+
+        <div class="concepto-clave">
+          <p class= 'concepto-clave__title'>Incidencia anual </p>  
+         <h3>5-7 casos / 100.000 individuos</h3>
+         <p>*Según el registro americano Surveillance, Epidemiology and End Results (SEER). Los registros europeos muestran resultados similares.</p> 
+          </div>    
+
+          <p class= "indented margin5 "> La mayoría de registros nacionales sugieren que la incidencia se ha incrementado paulatinamente en las últimas tres décadas, en contraposición con el estancamiento observado en otros tumores.</p>
+
+          <p class= "indented margin5 "> Ello se debe a la mejora de las técnicas diagnósticas (con mayor detección de casos incidentales) y al perfeccionamiento de la clasificación histológica.</p>  
+
+          <p class= "indented margin5 "> La presencia de factores de riesgo como tabaquismo, ingesta de alcohol o sedentarismo, podrían contribuir al aumento de incidencia.</p>
+ 
+          <p class= "indented margin5 "> Sin embargo, es preciso ser conscientes de que las tendencias podrían no ser reales, y deberse simplemente a cambios en los patrones de registro o clasificación.</p>
+
+          <p class= "indented margin5 "> Por ejemplo, el aumento de incidencia se observa en todas las localizaciones, salvo en los TNE de apéndice, si bien ello pudiera deberse a que estos se hayan reclasificando como tumores de ciego o de íleon.</p>
+        
+          <p class= "indented margin5 "> A pesar de que su incidencia es escasa, su prevalencia es alta, debido a que tienen un comportamiento más indolente que otros carcinomas de origen digestivo, con medianas de supervivencia que superan los 4-5 años incluso en estadios avanzados.</p>
+
+          <p class= "indented margin5 "> En el caso del registro del Grupo Español de Tumores Neuroendocrinos (R-GETNE), los tumores más frecuentemente registrados son los de origen gastrointestinal (46.8%), seguido de los pancreáticos (33.7%) y los de origen desconocido (19.5%).</p>
+   
+          <p class= "indented margin5 "> Sin embargo, al desglosar en localizaciones específicas dentro del tracto gastrointestinal, los más frecuentes son los pancreáticos (33.7%), seguidos por los de yeyuno-íleon (15.6%), apéndice (9.4%), estómago (6%) y recto (5.8%).3</p>
+
+          <p class= "indented margin5 "> A menudo, las localizaciones más frecuentes oscilan según las características de cada registro, y las peculiaridades diagnósticas de cada país.</p>  
+
+          <p class= "indented margin5 "> Suelen aparecer entre la cuarta y la sexta década de la vida. En R-GETNE, la mediana de edad al diagnóstico fue de 59 años, excepto para los tumores de apéndice (42 años), insulinomas (48 años) y gastrinomas (52 años) que se diagnosticaron a edades más precoces.</p>
+
+          <p class= "indented margin5 "> En el caso de los tumores de apéndice, la mediana de edad más baja parece deberse al diagnóstico incidental tras la cirugía de apendicitis.</p>
+
+          <p class= "indented margin5 "> En cuanto al estadio al diagnóstico, de acuerdo con R-GETNE, los tumores son localizados en el 36%, con extensión locoregional en el 14%, y metastásicos en el 44%.</p>
+       
+          <p class= "indented margin5 "> No obstante, esto es muy dependiente del tipo de tumor (p.e. los insulinomas suelen ser tumores sintomáticos que tienden a diagnosticarse en estadio localizado).</p> 
+
+          <p class= "indented margin5 "> Por último, algunos informes indican que los largos supervivientes de TNEs podrían presentar un riesgo incrementado de segundos tumores, lo que constituye un indicio de su predisposición genética, aún pendiente de dilucidar. El exceso de segundos tumores ha sido difícil de determinar con precisión, dada la baja incidencia y el sesgo de seguimiento.</p>
+
+          <p class= "indented margin5 "> Según el SEER, la razón de incidencia estandarizada para cualquier tipo de segundo tumor es de 1.15 (intervalo de confianza 95% (IC 95 %, 1.10-1.21), aunque el riesgo específico de segundas neoplasias gastrointestinales es algo más alto.</p>
+
+
+        </div>
+        
+        <div class="concepto-clave">
+          <p class= 'concepto-clave__title'>Importante</p>  
+          <div class= "list">
+            <div class="list__line">
+              <div class="list__star"><b>1</b></div> 
+              <div class="list__item"> Los tumores neuroendocrinos gastroenteropancreáticos  son tumores relativamente infrecuentes.</div>
+            </div> 
+            <div class="list__line">
+              <div class="list__star"><b>2</b></div> 
+              <div class="list__item"> La incidencia anual es de 5-7 casos por cada 100.000 individuos.</div>
+            </div> 
+            <div class="list__line">
+              <div class="list__star"><b>3</b></div> 
+              <div class="list__item"> Se diagnostican entre la 4-6ª décadas de la vida, aunque insulinomas, gastrinomas y TNEs de apéndice se pueden detectar antes.</div>
+            </div>  
+            <div class="list__line">
+              <div class="list__star"><b>4</b></div> 
+              <div class="list__item"> El  riesgo  de  segundos  tumores podría  estar incrementado  en  largos supervivientes de TNE.</div>
+            </div>  
+          </div>    
+        </div>  
+            <br>
+          </div>  
+
+              <%= partial(:'components/siguiente',  :locals => { :link => "../profilaxis.html"}) %> 
+
+        
+
+    
+
+
+
+
+      </div>
+  </div>
+</div>
+  <%= javascript_include_tag "modulo1" %>
