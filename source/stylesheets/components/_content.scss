@@ -57,9 +57,7 @@
   h4{
    font-family: $headers-font;
     font-size: 2.2rem;
-    font-weight: 700;
     margin-top: 2.5rem;
-    text-decoration: underline;
   }
 
 
@@ -118,7 +116,6 @@
   }
 
   &__highlight{
-    font-weight: 700;
     &:hover{
       background-color: $light-primary;
     }

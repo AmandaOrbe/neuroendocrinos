@@ -9,25 +9,25 @@
         <div id="biologia-presentacion">
           <%= partial(:'components/header1', :locals => { :text => "Biología molecular"}) %>
           
-          <p class= "margin5 "> Las células tumorales neuroendocrinas provienen de células madre alojadas en el epitelio, cuya homeostasis se apoya en células progenitoras pluripotenciales. </p>
+          <p class= "indented margin5 "> Las células tumorales neuroendocrinas provienen de células madre alojadas en el epitelio, cuya homeostasis se apoya en células progenitoras pluripotenciales. </p>
 
-          <p class= "margin5 "> Las células intermedias son reguladas por estímulos fisiológicos, siendo susceptibles a los agentes transformantes presentes en el microambiente.</p>
+          <p class= "indented margin5 "> Las células intermedias son reguladas por estímulos fisiológicos, siendo susceptibles a los agentes transformantes presentes en el microambiente.</p>
           
-          <p class= "margin5 "> Estos dan lugar a TNE con una población de células progenitoras transformadas. En su ontogenia, éstas pertenecen al menos a 14 linajes que forman parte del sistema neuroendocrino difuso.</p>
+          <p class= "indented margin5 "> Estos dan lugar a TNE con una población de células progenitoras transformadas. En su ontogenia, éstas pertenecen al menos a 14 linajes que forman parte del sistema neuroendocrino difuso.</p>
           
-          <p class= "margin5 "> Esta variabilidad explica la síntesis de una pléyade de hormonas, que dan lugar a cuadros sindrómicos diversos.  </p>
+          <p class= "indented margin5 "> Esta variabilidad explica la síntesis de una pléyade de hormonas, que dan lugar a cuadros sindrómicos diversos.  </p>
           
-          <p class= "margin5 "> Generalmente se trata de tumores esporádicos. Sin embargo, el 10% ocurren por mutaciones en genes de la línea germinal, como el gen del complejo de esclerosis tuberosa (TSC), el gen del von Hippel-Lindau (VHL), pero sobre todo el gen de la neoplasia endocrina múltiple tipo 1 (MEN-1), formando todos parte de síndromes hereditarios.</p>
+          <p class= "indented margin5 "> Generalmente se trata de tumores esporádicos. Sin embargo, el 10% ocurren por mutaciones en genes de la línea germinal, como el gen del complejo de esclerosis tuberosa (TSC), el gen del von Hippel-Lindau (VHL), pero sobre todo el gen de la neoplasia endocrina múltiple tipo 1 (MEN-1), formando todos parte de síndromes hereditarios.</p>
           
-          <p class= "margin5 "> El gen más estudiado es MEN-1, que funciona como supresor de tumores, y codifica una proteína llamada menina.</p>
+          <p class= "indented margin5 "> El gen más estudiado es MEN-1, que funciona como supresor de tumores, y codifica una proteína llamada menina.</p>
 
-          <p class= "margin5 "> Ésta ha sido involucrada en la transcripción genética, estabilidad del genoma, proliferación celular y apoptosis. Las mutaciones germinales que inactivan MEN-1 dan lugar a la aparición de TNEs múltiples a nivel de páncreas o intestino anterior.</p>
+          <p class= "indented margin5 "> Ésta ha sido involucrada en la transcripción genética, estabilidad del genoma, proliferación celular y apoptosis. Las mutaciones germinales que inactivan MEN-1 dan lugar a la aparición de TNEs múltiples a nivel de páncreas o intestino anterior.</p>
            
-          <p class= "margin5 "> Además de estos casos hereditarios, el 46% de los TNE pancreáticos esporádicos tienen mutaciones somáticas en MEN-1, y hasta el 80% sufren alteraciones funcionales que implican esta vía.</p>
+          <p class= "indented margin5 "> Además de estos casos hereditarios, el 46% de los TNE pancreáticos esporádicos tienen mutaciones somáticas en MEN-1, y hasta el 80% sufren alteraciones funcionales que implican esta vía.</p>
            
-          <p class= "margin5 "> En la actualidad, se considera que los TNE intestinales y los pancreáticos son entidades distintas desde el punto de vista biológico y molecular y, por tanto, tienen que estudiarse de manera separada.</p>
+          <p class= "indented margin5 "> En la actualidad, se considera que los TNE intestinales y los pancreáticos son entidades distintas desde el punto de vista biológico y molecular y, por tanto, tienen que estudiarse de manera separada.</p>
 
-          <p class= "margin5 "> Un estudio que realizó la secuenciación del exoma de TNE pancreáticos esporádicos identificó 16 genes alterados por cada tumor, intuyéndose tres perfiles genéticos diferentes:</p>
+          <p class= "indented margin5 "> Un estudio que realizó la secuenciación del exoma de TNE pancreáticos esporádicos identificó 16 genes alterados por cada tumor, intuyéndose tres perfiles genéticos diferentes:</p>
 
           <div class= "list">
             <div class="list__line">
@@ -44,23 +44,23 @@
             </div>  
           </div> 
 
-          <p class= "margin5 "> El fenotipo pro-angiogénico es uno de los rasgos distintivos de TNE pancreáticos. Esto se debe a que los islotes pancreáticos son organoides muy vascularizados, que se especializan en la distribución rápida de hormonas.</p>   
+          <p class= "indented margin5 "> El fenotipo pro-angiogénico es uno de los rasgos distintivos de TNE pancreáticos. Esto se debe a que los islotes pancreáticos son organoides muy vascularizados, que se especializan en la distribución rápida de hormonas.</p>   
 
-          <p class= "margin5 "> El interruptor angiogénico es un evento precoz de la tumorigénesis de TNE pancreáticos.</p>    
+          <p class= "indented margin5 "> El interruptor angiogénico es un evento precoz de la tumorigénesis de TNE pancreáticos.</p>    
           
-          <p class= "margin5 "> La activación de otras vías de señalización, como PI3K/AKT/mTOR, insulin-like growth factor 1 receptor (IGFR-1), receptores de somatostatina, los genes estimulados por la hipoxia, o las interacciones inmunológicas en el microambiente tumoral tienen efecto pro-angiogénico indirecto.</p>    
+          <p class= "indented margin5 "> La activación de otras vías de señalización, como PI3K/AKT/mTOR, insulin-like growth factor 1 receptor (IGFR-1), receptores de somatostatina, los genes estimulados por la hipoxia, o las interacciones inmunológicas en el microambiente tumoral tienen efecto pro-angiogénico indirecto.</p>    
           
-          <p class= "margin5 "> La angiogénesis de los TNE pancreáticos genera una llamada paradoja neuroendocrina, que consiste en que, a diferencia del resto de neoplasias, los TNE pancreáticos bien diferenciados y con baja tasa de proliferación, son los que tienen una expresión más elevada de factor de crecimiento vascular endotelial (VEGF) y fenotipo más angiogénico (ver Figura 1).</p> 
+          <p class= "indented margin5 "> La angiogénesis de los TNE pancreáticos genera una llamada paradoja neuroendocrina, que consiste en que, a diferencia del resto de neoplasias, los TNE pancreáticos bien diferenciados y con baja tasa de proliferación, son los que tienen una expresión más elevada de factor de crecimiento vascular endotelial (VEGF) y fenotipo más angiogénico (ver Figura 1).</p> 
 
 
 
         <%= partial(:'components/image-big',  :locals => { :image => "images/supervivencia-densidad.png", :title => "Figura 1: Supervivencia en función de la densidad microvascular." , :text => "Curvas de Kaplan-Meier según la densidad microvascular, baja (línea fina) o alta (línea gruesa), p=0.0001." , :id => "supervivencia-densidad"}) %>  
           
-          <p class= "margin5 "> Por el contario, los tumores pobremente diferenciados suelen tener una tasa de proliferación más elevada, con baja expresión de VEGF, fenotipo menos angiogénico, y expresión de otros genes relacionados con la hipoxia (p.e. translocación nuclear de Hypoxia-inducible factor 1-alfa (HIF-1α), anhidrasa carbónica, GLUT-1, etc.).</p>  
+          <p class= "indented margin5 "> Por el contario, los tumores pobremente diferenciados suelen tener una tasa de proliferación más elevada, con baja expresión de VEGF, fenotipo menos angiogénico, y expresión de otros genes relacionados con la hipoxia (p.e. translocación nuclear de Hypoxia-inducible factor 1-alfa (HIF-1α), anhidrasa carbónica, GLUT-1, etc.).</p>  
           
-          <p class= "margin5 "> De hecho, al contrario de lo que ocurre en otras neoplasias, el aumento de la intensidad de los realces radiológicos (que se correlacionan con la densidad microvascular), se traduce en un mejor pronóstico.</p>   
+          <p class= "indented margin5 "> De hecho, al contrario de lo que ocurre en otras neoplasias, el aumento de la intensidad de los realces radiológicos (que se correlacionan con la densidad microvascular), se traduce en un mejor pronóstico.</p>   
 
-          <p class= "margin5 "> La paradoja de la angiogénesis neuroendocrina no suele verse en TNE gastrointestinales, por el efecto fisiológico local que normalmente tiene la serotonina de la mucosa intestinal, siendo los tumores con fenotipo más angiogénico los que tienen una peor supervivencia libre de progresión (ver Figura 2).</p>  
+          <p class= "indented margin5 "> La paradoja de la angiogénesis neuroendocrina no suele verse en TNE gastrointestinales, por el efecto fisiológico local que normalmente tiene la serotonina de la mucosa intestinal, siendo los tumores con fenotipo más angiogénico los que tienen una peor supervivencia libre de progresión (ver Figura 2).</p>  
 
           <%= partial(:'components/image-big',  :locals => { :image => "images/realce-vascular.png", :title => "Figura 2: Diferentes tipos de realce vascular en un mismo tumor neuroendocrino de páncreas estadio IV grado 2." , :text => "
                   <b>1.</b>  Típica hipervascular homogénea y sólida (al lado de un quiste en segmento IV). <br/>
@@ -70,19 +70,19 @@
                   <i>Cortesía: Sº Radiología- HUCA.</i>
 " , :id => "realce-vascular"}) %>  
           
-          <p class= "margin5 "> En el caso de TNE gastrointestinales se han descrito diversas alteraciones genéticas y aberraciones cromosómicas. Un estudio reciente describió una media de 12.6 amplificaciones y 8.7 delecciones por tumor.</p>  
+          <p class= "indented margin5 "> En el caso de TNE gastrointestinales se han descrito diversas alteraciones genéticas y aberraciones cromosómicas. Un estudio reciente describió una media de 12.6 amplificaciones y 8.7 delecciones por tumor.</p>  
           
-          <p class= "margin5 "> Las mutaciones en la vía de PI3K/AKT/mTOR ocurren en aproximadamente un tercio de los casos, el gen APC está mutado en el 23% y tiene una delección en el 15%, CDKN1b tiene mutaciones en el 8%, y se han identificado mutaciones somáticas en múltiples genes como FGFR2, MEN1, HOOK3, EZH2, MLF1, CARD11, VHL, NONO y SMAD1.</p>  
+          <p class= "indented margin5 "> Las mutaciones en la vía de PI3K/AKT/mTOR ocurren en aproximadamente un tercio de los casos, el gen APC está mutado en el 23% y tiene una delección en el 15%, CDKN1b tiene mutaciones en el 8%, y se han identificado mutaciones somáticas en múltiples genes como FGFR2, MEN1, HOOK3, EZH2, MLF1, CARD11, VHL, NONO y SMAD1.</p>  
           
-          <p class= "margin5 "> Además, se han descrito numerosas anomalías adicionales como cambios epigenéticos (metilación de promotores y/o modificaciones de histonas), alteraciones en el perfil de microRNAs, y diversas aberraciones cromosómicas.</p>  
+          <p class= "indented margin5 "> Además, se han descrito numerosas anomalías adicionales como cambios epigenéticos (metilación de promotores y/o modificaciones de histonas), alteraciones en el perfil de microRNAs, y diversas aberraciones cromosómicas.</p>  
           
-          <p class= "margin5 "> Un aspecto clave para entender la biología de los TNE es el papel regulador central que desempeña la somatostatina. Se trata de un péptido con un efecto inhibitorio sobre la secreción endocrina y exocrina, así como de la proliferación celular.</p>   
+          <p class= "indented margin5 "> Un aspecto clave para entender la biología de los TNE es el papel regulador central que desempeña la somatostatina. Se trata de un péptido con un efecto inhibitorio sobre la secreción endocrina y exocrina, así como de la proliferación celular.</p>   
           
-          <p class= "margin5 "> La somatostatina actúa a través de una familia de receptores acoplados a proteínas G (SSTRs), cuya activación desencadena una cascada compleja de señales intracelulares (inhibición de adenilato ciclasa, modulación de la vía de las MAP kinasas, etc.).</p>      
+          <p class= "indented margin5 "> La somatostatina actúa a través de una familia de receptores acoplados a proteínas G (SSTRs), cuya activación desencadena una cascada compleja de señales intracelulares (inhibición de adenilato ciclasa, modulación de la vía de las MAP kinasas, etc.).</p>      
           
-          <p class= "margin5 "> Se han identificado cinco receptores de somatostatina (SSTR1-5). SSTR2 es el subtipo más frecuentemente expresado en TNE gastrointestinales y pancreáticos (aproximadamente en el 80%), excepto en insulinomas benignos y gastrinomas, que expresan SSTR2 en menos del 50% de los casos.</p>      
+          <p class= "indented margin5 "> Se han identificado cinco receptores de somatostatina (SSTR1-5). SSTR2 es el subtipo más frecuentemente expresado en TNE gastrointestinales y pancreáticos (aproximadamente en el 80%), excepto en insulinomas benignos y gastrinomas, que expresan SSTR2 en menos del 50% de los casos.</p>      
           
-          <p class= "margin5 "> Además, las células tumorales también expresan SSTR3 y SSTR5, que contribuyen en la apoptosis e inhibición de la proliferación celular (ver Tabla 1).</p>   
+          <p class= "indented margin5 "> Además, las células tumorales también expresan SSTR3 y SSTR5, que contribuyen en la apoptosis e inhibición de la proliferación celular (ver Tabla 1).</p>   
           
 
         <h4 class="margin5">Tabla 1. Receptores de somatostatina en TNE-GEP (%). Adaptado de Oberg et al.32</h4>
@@ -146,11 +146,11 @@
               </tr>
             </table>
             <p><i>*Insulinomas malignos.</i></p>
-          <p class= "margin5 "> Los diferentes subtipos de receptor pueden asociarse generando homodímeros, y pueden desarrollar procesos de heterodimerización entre miembros de la familia, o incluso con receptores de otras familias (p.e. dopamina).</p>   
+          <p class= "indented margin5 "> Los diferentes subtipos de receptor pueden asociarse generando homodímeros, y pueden desarrollar procesos de heterodimerización entre miembros de la familia, o incluso con receptores de otras familias (p.e. dopamina).</p>   
           
-          <p class= "margin5 "> Estos procesos cambian las afinidades de unión de los complejos al ligando, y la capacidad para ejercer de transductores de señales.</p>   
+          <p class= "indented margin5 "> Estos procesos cambian las afinidades de unión de los complejos al ligando, y la capacidad para ejercer de transductores de señales.</p>   
           
-          <p class= "margin5 "> El incremento de la densidad microvascular es un factor de buen pronóstico en tumores neuroendocrinos pancreáticos cuando se consideran tumores de todos los grados.</p>  
+          <p class= "indented margin5 "> El incremento de la densidad microvascular es un factor de buen pronóstico en tumores neuroendocrinos pancreáticos cuando se consideran tumores de todos los grados.</p>  
 
           <div class="concepto-clave">
           <p class= 'concepto-clave__title'>Importante</p>  

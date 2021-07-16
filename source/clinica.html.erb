@@ -1,0 +1,122 @@
+
+<% t =  data.origen%>
+<div id="home">
+  <%=partial(:'components/sidebar-clinica')  %>
+
+  <div id="main">
+    <div class="container">
+      <div class="content">
+        <div id="clinica-presentacion">
+          <%= partial(:'components/header1', :locals => { :text => "Clínica"}) %>
+          
+          <p class= " margin5 ">Los tumores neuroendocrinos habitualmente progresan lentamente y no provocan síntomas, por lo que pueden pasar desapercibidos durante años. De hecho, en tumores avanzados existe una demora al diagnóstico de más de 5 años.</p>
+
+          <p class= " margin5 ">Los tumores no funcionantes tienen síntomas poco específicos que dependen de su localización, y se deben al efecto del tumor sobre los órganos o estructuras adyacentes o a las metástasis.</p>
+          
+          <p class= " margin5 "> El síntoma más frecuente es el dolor abdominal, seguido de la pérdida de peso, pérdida de apetito, náuseas y síntomas asociados con la obstrucción intestinal. No es infrecuente que también se diagnostiquen de forma casual en un estudio de imagen o endoscópico (tabla 5).</p>
+          
+          <p class= " margin5 "> En tumores funcionantes la clínica depende de si se localizan en: </p>
+
+          <div class= "list">
+            <div class="list__line">
+              <div class="list__star"><b>*</b></div> 
+              <div class="list__item"> <b>Intestino</b> En estadios avanzados, estos pueden producir un síndrome carcinoide.</div>
+            </div> 
+            <div class="list__line">
+              <div class="list__star"><b>*</b></div> 
+              <div class="list__item"> <b>Páncreas</b> Estos pueden producir síntomas relacionados con la hormona implicada: insulina, gastrina, glucagón, somatostatina, péptido intestinal vasoactivo (VIP), etc.</div>
+            </div> 
+          </div> 
+          
+          <p class= " margin5 "> Los TNE localizados en yeyuno/íleon son los que con más frecuencia se asocian a síndrome carcinoide, sobre todo si existen metástasis en el hígado. Estos síntomas aparecen en el 10-15% de los pacientes con este tipo de tumores y son los siguientes:</p>
+
+          <div class= "list">
+            <div class="list__line">
+              <div class="list__star"><b>*</b></div> 
+              <div class="list__item"> <b>Enrojecimiento facial</b> que puede asociarse con sudoración, hipotensión, dolor abdominal</div>
+            </div> 
+            <div class="list__line">
+              <div class="list__star"><b>*</b></div> 
+              <div class="list__item"> <b>Diarrea crónica acuosa,</b> abundante, que continúa incluso en periodos de ayuno y refractaria a antidiarreicos</div>
+            </div> 
+            <div class="list__line">
+              <div class="list__star"><b>*</b></div> 
+              <div class="list__item"><b>Insuficiencia cardiaca derecha</b> por daño de las válvulas derechas siendo la insuficiencia tricúspide lo más común, palpitaciones y broncoespasmo</div>
+            </div> 
+          </div> 
+          
+          <p class= " margin5 "> Estos síntomas hacen que puedan confundirse con otras enfermedades (como la ansiedad y la depresión, la menopausia, el colon irritable, etc.).</p>
+
+          <p class= " margin5 "> Los síntomas de los TNE pancreáticos funcionantes están relacionados con el tipo de hormona que producen:</p>
+
+     
+              <%= partial(:'components/card', :locals => { :title => "Los insulinomas", :body => "Producen insulina, provocan hipoglucemia durante el ayuno. Los síntomas se deben a la disminución de los niveles de glucosa en el cerebro, y se asocian a alteraciones de la conducta, dolor de cabeza, irritabilidad, etc. También pueden aparecer síntomas como temblores, palpitaciones y sensación de hambre por la liberación de otras sustancias, como las catecolaminas, etc." }) %>
+         
+              <%= partial(:'components/card', :locals => { :title => "Los gastrinomas ", :body => "Producen gastrina e hipersecreción ácida que causa úlceras y a veces diarrea. Los síntomas asociados con un gastrinoma se conocen como síndrome de Zollinger-Ellison, y hay que recordar que pueden ocurrir en el contexto de una neoplasia endocrina múltiple tipo 1, habitualmente multifocal y recurrente."}) %>
+        
+              <%= partial(:'components/card', :locals => { :title => "Los glucagonomas  ", :body => "Producen glucagón y dan lugar a lesiones cutáneas características denominadas eritema necrolítico migratorio, inflamación de la lengua y de los labios, diabetes, pérdida de peso, deterioro cognitivo, depresión y diarrea."}) %>
+        
+              <%= partial(:'components/card', :locals => { :title => "Los somatostatinomas  ", :body => "Producen somatostatina y dan lugar a un mal funcionamiento del páncreas exocrino con esteatorrea, cálculos biliares y diabetes secundaria."}) %>
+        
+              <%= partial(:'components/card', :locals => { :title => "El VIPoma  ", :body => "Produce VIP, y el síntoma principal es la aparición de diarrea acuosa abundante."}) %>
+          
+          <br>
+          <h4 class="margin5"><b>Tabla 5:</b> <i>Principales síntomas de los tumores neuroendocrinos</i></h4>    
+          <table class="tabla margin5">
+              <tr class="tabla__row">
+                <th class="tabla__head tabla__30 ">Tumor neuroendocrino</th>
+                <th class="tabla__head tabla__70">Síndrome clínico/th>
+              </tr>
+              <tr class="tabla__row-gray ">
+                <td class="tabla__cell tabla__30">Síndrome carcinoide</td>
+                <td class="tabla__cell tabla__70">Enrojecimiento, diarrea, broncoconstricción, cardiopatía derecha</td>
+                
+              </tr>
+              <tr class="tabla__row">
+                <td class="tabla__cell tabla__30 ">Insulinoma</td>
+                <td class="tabla__cell tabla__70">Hipoglucemia: alteración de la conducta, temblor, palpitaciones, sensación de hambre</td>
+               
+              </tr>
+              <tr class="tabla__row-gray">
+                <td class="tabla__cell tabla__30 ">Gastrinoma (síndrome de Zollinger-Ellison)</td>
+                <td class="tabla__cell tabla__70">Diarrea, úlceras, gastritis</td>
+              </tr>
+              <tr class="tabla__row">
+                <td class="tabla__cell tabla__30 ">Glucagonoma</td>
+                <td class="tabla__cell tabla__70">Lesiones en la piel, diabetes, diarrea, trombosis</td>
+               
+              </tr>
+              <tr class="tabla__row-gray">
+                <td class="tabla__rowcell tabla__50 ">Somatostatinoma</td>
+                <td class="tabla__cell tabla__50">Insuficiencia pancreática exocrina, esteatorrea, diabetes, cálculos biliares</td>
+              </tr>
+  
+            </table>      
+
+      
+
+          <div class="concepto-clave">
+          <p class= 'concepto-clave__title'>Importante</p>  
+          <div class= "list">
+            <div class="list__line container__highlight">
+              <div class="list__star"><b>1</b></div> 
+              <div class="list__item"> Los TNEs dan poca clínica y los síntomas suelen ser inespecíficos o confundirse con otras causas.</div>
+            </div> 
+            <div class="list__line container__highlight">
+              <div class="list__star"><b>2</b></div> 
+              <div class="list__item"> Esto lleva a una demora diagnóstica y a que muchos se diagnostiquen como hallazgo casual.</div>
+            </div> 
+            <div class="list__line container__highlight">
+              <div class="list__star"><b>3</b></div> 
+              <div class="list__item"> La funcionalidad se define por la presencia o no de síntomas, pero no sobre la positividad inmunohistoquímica o sérica. Por ejemplo, si un tumor pancreático no produce síntomas pero tiñe para gastrina, no se consideraría un síndrome de Zollinger-Ellison, sino un TNE productor de gastrina.</div>
+            </div>
+          </div>    
+        </div>   
+
+        </div>
+
+
+
+
+</div>
+  <%= javascript_include_tag "modulo3" %>

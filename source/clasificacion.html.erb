@@ -1,0 +1,192 @@
+
+<% t =  data.origen%>
+<div id="home">
+  <%=partial(:'components/sidebar-clasificacion')  %>
+
+  <div id="main">
+    <div class="container">
+      <div class="content">
+        <div id="clasificacion-presentacion">
+          <%= partial(:'components/header1', :locals => { :text => "Clasificación"}) %>
+          
+          <p class= " margin5 "> La clasificación de los TNEs ha evolucionado a lo largo del tiempo, a medida que se conocía más sobre su historia natural. Una de los primeros intentos de clasificación fue el de la Organización Mundial de la Salud (OMS) de 2000. </p>
+
+          <p class= " margin5 "> Esta clasificación constituía un sistema híbrido que combinaba los criterios histológicos, como el índice mitótico, el Ki-67, la invasión, tamaño tumoral y metástasis (ver Tabla 2).</p>
+
+          <h4 class="margin5"><b>Tabla 2. : Definiciones de los TNEs de acuerdo con las clasificaciones de la OMS.</b></h4>
+
+            <table class="tabla margin5">
+              <tr class="tabla__row">
+                <th class="tabla__head tabla__50 ">OMS 2000</th>
+                <th class="tabla__head tabla__50">OMS 2010</th>
+              </tr>
+              <tr class="tabla__row-gray ">
+                <td class="tabla__cell tabla__50">1. Tumor endocrino bien diferenciado</td>
+                <td class="tabla__cell tabla__50">1. Tumor neuroendocrino grado 1 (G1) (carcinoide)</td>
+                
+              </tr>
+              <tr class="tabla__row">
+                <td class="tabla__cell tabla__50 "> 2. Carcinoma endocrino bien diferenciado.</td>
+                <td class="tabla__cell tabla__50">2. Tumor neuroendocrino grado 2 (G2)</td>
+               
+              </tr>
+              <tr class="tabla__row-gray">
+                <td class="tabla__cell tabla__50 ">3. Carcinoma endocrino pobremente diferenciado /carcinoma de célula pequeña.</td>
+                <td class="tabla__cell tabla__50">3. Carcinoma neuroendocrino (célula grande o pequeña) (G3).</td>
+              </tr>
+              <tr class="tabla__row">
+                <td class="tabla__cell tabla__50 ">4. Carcinoma mixto endocrino- exocrino.</td>
+                <td class="tabla__cell tabla__50">4. Carcinoma mixto adenoneuroendocrino.</td>
+               
+              </tr>
+              <tr class="tabla__row-gray">
+                <td class="tabla__rowcell tabla__50 ">5. Lesiones pseudotumorales.</td>
+                <td class="tabla__cell tabla__50">5. Lesiones hiperplásicas y preneoplásicas.</td>
+              </tr>
+  
+            </table>
+
+
+
+          
+          <p class= "margin5 "> En 2007, la Sociedad Europea de Tumores Neuroendocrinos (ENETS) introdujo dos mejoras significativas en la clasificación:</p>
+             
+          <div class= "list">
+            <div class="list__line">
+              <div class="list__star"><b>1</b></div> 
+              <div class="list__item"> Los tumores se estadificaron de manera específica para cada localización, lo que más tarde fue apoyado por el American Joint Committee on Cancer (AJCC).</div>
+            </div> 
+            <div class="list__line">
+              <div class="list__star"><b>2</b></div> 
+              <div class="list__item"> Se propuso un sistema de gradación histológica basado en el índice mitótico y el Ki-67 (ver tabla 3).</div>
+            </div>  
+          </div> 
+
+          <p class= " margin5 ">La actualización de clasificación de la OMS 2010 se apoyó en estos conceptos, separando los tumores bien diferenciados en dos categorías, grado 1 y grado 2.</p>   
+
+          <p class= " margin5 "> La OMS 2010 utiliza la tasa proliferativa para separar los TNEs bien diferenciados que agrupan el bajo grado (G1) y el grado intermedio (G2) de los carcinomas neuroendocrinos (CNE) que son aquellos de alto grado (G3) (ver Tabla 4). La tasa proliferativa se estima mediante el índice mitótico o el Ki-67.</p>    
+          
+          <p class= " margin5 "> Para estratificar los tumores bien diferenciados se utiliza el punto de corte en <2 mitosis/10 campos de gran aumento (CGA), mientras que para los tumores pobremente diferenciados se usa el punto de corte >20 mitosis/10 CGA.</p>    
+          
+          <p class= " margin5 "> Por otro lado, Ki-67 es una proteína nuclear de 395 kDa que se asocia estrechamente con el nucléolo y la heterocromatina. El índice Ki-67 es expresado en las fases G1, S, G2 y M del ciclo celular, con un pico en la mitosis.</p> 
+
+          <p class= " margin5 "> Aunque no se conoce aún su función biológica exacta, parece implicada en la regulación del ciclo celular o la organización del nucléolo.</p> 
+
+          <p class= " margin5 "> Ello no ha sido óbice para que la clasificación de la OMS 2010 incluyera la tinción de Ki-67 para definir el bajo grado (expresión en <3% de las células), grado intermedio (3-20%) y alto grado (>20%).</p> 
+
+          <p class= " margin5 "> Cuando mitosis y Ki-67 son discordantes, se debe utilizar el más alto de ellos. Desde entonces varios estudios han tratado de recuperar la distinción entre diferenciación histológica e índice proliferativo, ya que algunos tumores histológicamente bien diferenciados, pero con elevado índice mitótico o Ki-67 >20% parecen comportarse de forma distinta de los tumores pobremente diferenciados con índices proliferativos altos. Así, en 2017 se ha actualizado la clasificación de la OMS de los TNE pancreáticos no de los gastrointestinales. En esta nueva clasificación los tumores G3 se subdividen en tumores bien diferenciados (TNEs G3) y carcinomas pobremente diferenciados (CNEs G3) (ve Tabla 4).</p> 
+
+          <p class= " margin5 "> En TNE del pulmón, la clasificación de la OMS 2015 es la más utilizada. Define cuatro categorías (carcinoide típico, carcinoide atípico, CNE de células grandes y CNE de células pequeñas) basadas en las características morfológicas, el recuento mitótico y la presencia de necrosis. El añadir el Ki-67 está en discusión (la Tabla 4 resume las principales características de la clasificación de la OMS por sitio tumoral).</p> 
+
+          <p class= " margin5 "> En cuanto, al estadiaje se utiliza actualmente la AJCC 7th que tiene apartados diferentes para tumores de apéndice, páncreas, estómago, intestino delgado y colon, o el sistema de estadiaje de ENETs.</p> 
+
+          <p class= " margin5 "> Ambos sistemas tienen ciertas diferencias, y no está claro en la actualidad si uno es mejor que el otro. </p> 
+
+          <h4 class="margin5">Tabla 3: Grados histológicos basados en índice mitótico y Ki67.</h4>
+
+          <table class="tabla margin5">
+              <tr class="tabla__row">
+                <th class="tabla__head tabla__33 ">Grado</th>
+                <th class="tabla__head tabla__33">Índice mitótico (por 10 CGA)</th>
+                <th class="tabla__head tabla__33">Ki67 (%)</th>
+              </tr>
+              <tr class="tabla__row ">
+                <td class="tabla__row-header tabla__33"><b>G1</b></td>
+                <td class="tabla__cell tabla__33"><2</td>
+                <td class="tabla__cell tabla__33">≤2</td>
+                
+              </tr>
+              <tr class="tabla__row-gray">
+                <td class="tabla__rowcell-header tabla__33 "><b>G2</b></td>
+                <td class="tabla__cell tabla__33">2 to 20</td>
+                <td class="tabla__cell tabla__33">3 to 20</td>
+               
+              </tr>
+              <tr class="tabla__row">
+                <td class="tabla__rowcell-header tabla__33 "><b>G3</b></td>
+                <td class="tabla__cell tabla__33">>20</td>
+                <td class="tabla__cell tabla__33">>20</td>
+              </tr>
+            </table>
+
+
+          <h4 class="margin5">Tabla 4: Nome nclatu ra de la OMS para la clasifi cación de los tumor es neuro endoc rinos digestivos y pulmonares.</h4>
+
+          <table class="tabla margin5">
+              <tr class="tabla__row">
+                <th class="tabla__head tabla__33 ">TNE pancreático OMS 2017</th>
+                <th class="tabla__head tabla__33">TNE gastrointestinal OMS 2010</th>
+                <th class="tabla__head tabla__33">TNE pulmonar OMS 2015</th>
+              </tr>
+              <tr class="tabla__row ">
+                <td class="tabla__row-header tabla__33"><b>Bien diferenciado</b></td>
+                 <td></td>
+                 <td></td>
+              </tr>
+              <tr class="tabla__row-gray">
+                <td class="tabla__rowcell-header tabla__33 ">
+                  <b>TNE G1</b> ki67<3%; <2 mit/10CGA <br>
+                  <b>TNE G2</b> ki67 3-20% y/o 2-20 mit/10CGA <br>
+                  <b>TNE G3</b> ki67>20% y/o >20mit/10CGA
+                </td>
+                <td class="tabla__cell tabla__33">
+                  <b>TNE G1 </b> ki67 ≤2%; <2 mit/10CGA <br>
+                  <b>TNE G2</b> ki67 2-20% y/o 2-20 mit/10CGA
+                </td>
+                <td class="tabla__cell tabla__33">
+                  <b>Carcinoide típico:</b> <2 mit/10CGA; no necrosis <br>
+                  <b>Carcinoide atípico:</b> 2-10 mit/10CGA y/o focos de necrosis
+                </td>
+            
+              </tr>
+
+              <tr class="tabla__row ">
+                <td class="tabla__row-header tabla__33"><b>Pobremente diferenciado</b></td>  
+                <td></td>
+                <td></td>
+              </tr>
+              <tr class="tabla__row-gray">
+                <td class="tabla__rowcell-header tabla__33 ">
+                  <b>CNE G3</b> ki67>20% y/o >20 mit/10CGA <br>
+                  Célula pequeña <br>
+                  Célula grande
+                </td>
+                <td class="tabla__cell tabla__33">
+                  <b>CNE G3</b> ki67>20% y/o >20 mit/10CGA <br>
+                  Célula pequeña <br> 
+                  Célula grande
+                </td>
+                <td class="tabla__cell tabla__33">
+                  CNE de célula pequeña: > 10 mit/10CGA <br>
+                  CNE de célula grande: > 10 mit/10CGA <br>
+                  CNE combinado: > 10 mit/10CGA <br>
+                </td>
+              </tr>
+
+              <tr class="tabla__row ">
+                <td class="tabla__row-header tabla__33"><b>Mixto</b></td>  
+                <td></td>
+                <td></td>
+              </tr>
+              <tr class="tabla__row-gray">
+                <td class="tabla__rowcell-header tabla__33 ">
+                  <b>Tumor mixto neuroendocrino y no neuroendocrino</b> 
+                </td>
+                <td class="tabla__cell tabla__33">
+                  <b>Carcinoma mixto adenoneuroendocrino</b>
+                </td>
+                <td></td>
+              </tr>
+            </table>
+
+
+
+        
+
+        </div>
+
+
+
+
+</div>
+  <%= javascript_include_tag "modulo3" %>
